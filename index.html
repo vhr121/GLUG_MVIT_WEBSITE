@@ -1,92 +1,48 @@
-<?xml version="1.0" encoding="utf8"?>
-<!DOCTYPE html PUBLIC "//-w3c//DTD xhtml 1.1//en" "http://www.w3.org/TR/xhtml11/dtd/xhtml11.dtd">
-<html xmlns="http://www.w3c.org/1999/xhtml">
-<head>
-	<style type="text/css">
-		h1 {text-align: center;}
-		.center {text-align: center;}
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>home</title>
+        <link href="css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="css/menu.css" rel="stylesheet" type="text/css" />
+        <link href="css/tooltip.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aguafina+Script" />
+    </head>
+    <body>
+        <div  class="focus" >
+            <center><img src="css/GlugHeader.png" height="206" width="418" usemap="#logo"/></center>
+            <map name="logo">
+                <area class="tooltip" shape="circle" coords="51,51,51" href="https://www.gnu.org" alt="">
+                <area shape="rect" coords="110,110,190,0" href="https://www.linux.com"> 
+                <area shape="rect" coords="200,110,418,0" href="https://www.facebook.com/groups/193504514397500/"> 
+            </map>
+        </div>
+    <center><h2 style="font-family: Aguafina Script;font-size:300%;margin:5px " >" Free as not in free beer, free as in freedom"</h2></center>
+       <div class="container">
 
-	</style>
-	<title>home</title>
-</head>
-<body>
-	<h1>GLUG MVIT:LIBRE NOT GRATIS</h1>
-	<b><blockquote class="center">"Free as not in free beer, free as in freedom."</blockquote></b>
-	<pre><p>One stop for all free software enthusiats<br/>    &gt inspired from <a href="https://en.wikipedia.org/wiki/Richard_Stallman">"Richard Stallman"</a></p></pre>
-	
-	<meta name="librenotgratis" content="freesoftware,fsmk,GLUGMVIT"/>
-	<hr/>
-	<img src="print.jpg" alt ="glug mvit poster" width="400pt" height="400pt" align="right"/>
-	<a href="http://www.glugmvit.blogspot.in">click here to see our blog</a>
-	<hr/>
-	<ol>
-		<li><a href="#about">About</a></li>
-		<li><a href="#activity">Activities</a></li>
-		<li><a href="#events">upcoming events</a></li>
-		<li><a href="#contact">contact us</a></li>
-	</ol>
-	<hr/>
-	<dl>
-	<ul>
-		<li id="about"><dt>About</dt></li><dd>Glug Mvit is a community for free software enthusiasts in SIR MVIT</dd>
-		<li id="activity"><dt>Activities</dt></li><dd>we conduct various activites, workshops and hackathons regularly</dd>
-		<li id="events"><dt>upcoming events</dt></li><dd>Machine learning using python </dd>
-		<li id="contact"><dt>contact us</dt></li><dd>reach us at GLUG MVIT facebook page</dd>
-	</ul>
-	</dl>
-	<table border="border"  cellpadding="3pt" cellspacing="3pt">
-		<tr align="center" >
-			<th colspan="3">event List</th>
-		</tr>
-		<tr>
-			<th>date</th>
-			<th>events</th>
-		</tr>
-		<tr align="center">
-			<td>17-08-2016</td>
-			<td>GLUG MVIT Inauguration</td>
-		</tr>
-		<tr align="center">
-			<td>26-08-2016</td>
-			<td>Hands on Pyhton basics</td>
-		</tr>
-
-		<tr align="center">
-			<td>10-09-2016</td>
-			<td>machine learning using python</td>
-		</tr>
-	</table>
-
-	<hr/>
-	<h3>Not yet registered?Register now!!</h3>
-	<form method="GET" action="">
-		<label>Name:<input type="text" name="uname" size="20" maxlength="20" /></label><br/>
-		<label>USN:<input type="text" size="10" maxlength="10" name="usn"></label><br>
-		<label>email:<input type="text" name="email" size="20"></label><br>
-		<label>phone number:<input type="text" name="number" maxlength="10"></label><br>
-		<label>year:1<input type="radio" name="year" value="1"></label>
-		<label>2<input type="radio" name="year" value="2"></label>
-		<label>3<input type="radio" name="year" value="3"></label>
-		<label>4<input type="radio" name="year" value="4"></label><br>
-		<label>Branch:<select name="branch">
-			<option>cse</option>
-			<option>ISE</option>
-			<option>ECE</option>
-			<option>TCE</option>
-			<option>ME</option>
-			<option>other</option>
-		</select>
-		</label><br>
-
-	
-	
-		<textarea name="idea" rows="10" cols="20">Have new ideas and looking for a patform??then tell us about yoursef in brief</textarea><br>
-		<label>password:<input type="password" name="password" size="10"></label><br><br>
-		
-		<input type="reset" name="reset">
-		<input type="sumbit" name = "submit">
-	</form>
-<hr/>
-
-</body>
+           <center><ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a  href="#">About</a></li>
+                <li><a  href="#">Activities</a>
+                    <ul class="subs">
+                        <li><a href="#">Submenu 2-1</a></li>
+                        <li><a href="#">Submenu 2-2</a></li>
+                        <li><a href="#">Submenu 2-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Upcoming Event</a>
+                    <ul class="subs">
+                        <li><a href="#">Submenu 3-1</a></li>
+                        <li><a href="#">Submenu 3-2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">The Team</a></li>
+                <li><a href="#">Contact us</a></li>
+               </ul></center>
+                 <p>One stop for all free software enthusiats
+            > inspired from "Richard Stallman"
+        </p>
+        </div>
+      
+    </body>
 </html>
