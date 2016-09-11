@@ -1,0 +1,35 @@
+
+#focus:hover figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#focus:hover figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+ul{
+    background-color: #333333;
+    color:#00cc33;
+    list-style-type: none;
+    overflow:hidden;
+}
+li{
+    float:left;
+    display: block;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+}
+a.nav{
+    text-decoration: none;
+    color:#00cc33;
+    font:15px/30px Georgia, serif; 
+}
+a:hover{
+    color:#00B4FF;
+}
+li:hover{
+    background-color: black;
+}
