@@ -6,6 +6,18 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route('/about.html')
+def about():
+	return render_template("about.html");
+	
+@app.route('/team.html')
+def team():
+	return render_template("team.html");
+	
+@app.route('/journey.html')
+def journey():
+	return render_template("journey.html");
+	
 @app.route('/registration', methods=['GET', 'POST'])
 def send():
     if request.method == 'POST':
@@ -34,6 +46,7 @@ def send():
     elif request.method == 'GET':
         return render_template("registration.html")
     return render_template("index.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
