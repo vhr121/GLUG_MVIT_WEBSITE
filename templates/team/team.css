@@ -40,8 +40,20 @@ a:hover{
 {
     height: 300px;
     width: 400px;
+    padding: 5px;
 }
 .png {
-	padding: 15px 25px;
+	padding: 10px 20px;
 	align: center;
 }
+.img-circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.MemberDetails{
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
