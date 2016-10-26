@@ -1,18 +1,15 @@
-.bg { 
-   /* background: url(session0.jpg);*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-} 
 .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+#navibar {
+	width:100%;
+	text-align:center;
+    background-color: #333333;
+    color:#00cc33;
+}
 .item{
 	display: inline-block;
 	padding: 15px;
@@ -27,12 +24,6 @@ a.link{
 }
 a:hover{
     color:#00B4FF;
-}
-#navibar {
-	width:100%;
-	text-align:center;
-    background-color: #333333;
-    color:#00cc33;
 }
 #head1	{
 	padding: 15px;
